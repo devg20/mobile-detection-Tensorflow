@@ -41,7 +41,7 @@ Download or clone: https://github.com/tensorflow/models into the "tensorflow1" m
 9. To test the model locally, run the webcam_detection.py file in this repo(Update the lines 20, 32, 40, 42 accordingly).
    Open a terminal in "C:\tensorflow1\models\research\object_detection" and run the following command:
    
-   ### python webcam_detection.py
+   #### python webcam_detection.py
     
     
 Finally if you want save the hardwork, you can download my inference graph folder "phone_det_graph" in this repo. :).
