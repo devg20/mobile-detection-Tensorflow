@@ -1,6 +1,6 @@
 # mobile-detection-Tensorflow
 
-##Mobile/ Phone Detection using ssd_inception_v2_coco
+## Mobile/ Phone Detection using ssd_inception_v2_coco
 
 Follow the steps to setup the files for training the model.
 
