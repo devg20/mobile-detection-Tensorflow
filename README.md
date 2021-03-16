@@ -16,7 +16,8 @@ Download or clone: https://github.com/tensorflow/models into the "tensorflow1" m
    also has the files "test.record" and "train.record" which store data in binary format for faster loading and processing.
 
 4. Copy the file "ssd_inception_v2_coco.config" in this github repo and paste it in "C:\tensorflow1\models\research\object_detection".
-   This is the config file which has information of the layers and declarations of the files to be used.
+   This is the config file which has information of the layers, declarations of the file locations to be used(like labelmap.pbtxt, train.record, test.record,
+   model checkpoint i.e. ssd_inception_v2_coco_2018_01_28/model.ckpt) and also defines the number of classes.
 
 5. Click the link below to download model checkpoint used in this project: 
    http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2018_01_28.tar.gz
@@ -43,7 +44,7 @@ Download or clone: https://github.com/tensorflow/models into the "tensorflow1" m
    python webcam_detection.py
     
     
-Finally if you want save the hardwork, you can download my inference graph folder "phone_det_graph" :).
+Finally if you want save the hardwork, you can download my inference graph folder "phone_det_graph" in this repo. :).
  
         
 
