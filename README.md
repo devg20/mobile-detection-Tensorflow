@@ -30,18 +30,19 @@ Download or clone: https://github.com/tensorflow/models into the "tensorflow1" m
    
    Now run the following command to run the "train.py" file located in "C:\tensorflow1\models\research\object_detection":
    
-   python train.py --logtostderr --train_dir= training/ --pipeline_config_path=ssd_inception_v2_coco.config
+   ### python train.py --logtostderr --train_dir= training/ --pipeline_config_path=ssd_inception_v2_coco.config
   
 8. Post Training, to export inference graph of the model,  open a terminal in this "C:\tensorflow1\models\research\object_detection" directory.
 
    Now run the following command to execute the "export_inference_graph.py" file in "C:\tensorflow1\models\research\object_detection":
   
-   python export_inference_graph.py --input_type image_tensor --pipeline_config_path ssd_inception_v2_coco.config --checkpoint_path training/model.ckpt-<latest saved training step number> --inference_graph_path <model-name-any>.pb
+   ### python export_inference_graph.py --input_type image_tensor --pipeline_config_path ssd_inception_v2_coco.config --checkpoint_path training/model.ckpt-<latest saved 
+   ### training step number> --inference_graph_path <model-name-any>.pb
 
 9. To test the model locally, run the webcam_detection.py file in this repo(Update the lines 20, 32, 40, 42 accordingly).
    Open a terminal in "C:\tensorflow1\models\research\object_detection" and run the following command:
    
-   python webcam_detection.py
+   ### python webcam_detection.py
     
     
 Finally if you want save the hardwork, you can download my inference graph folder "phone_det_graph" in this repo. :).
